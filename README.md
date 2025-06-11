@@ -41,7 +41,7 @@ Add the theme as a submodule by running the following command in the
 root directory of your Hugo site:
 
 ```bash
-git submodule add https://github.com/tomowang/hugo-theme-tailwind.git themes/tailwind
+git submodule add https://github.com/ManuelLevi/hugo-theme-tailwind themes/tailwind
 # Or to update to the latest version
 git submodule update --remote
 ```
@@ -54,7 +54,7 @@ git submodule update --remote
 ```toml
 [module]
   [[module.imports]]
-    path = "github.com/tomowang/hugo-theme-tailwind"
+    path = "https://github.com/ManuelLevi/hugo-theme-tailwind"
 ```
 
 3. Finally, run `hugo mod get -u` to download the theme.
@@ -146,7 +146,7 @@ link = 'https://www.facebook.com/'
 
 The theme folder structure is as follows:
 
-![hugo theme layout structure](https://raw.githubusercontent.com/tomowang/hugo-theme-tailwind/main/images/hugo-theme-layout-structure.png)
+![hugo theme layout structure](https://raw.githubusercontent.com/ManuelLevi/hugo-theme-tailwind/main/images/hugo-theme-layout-structure.png)
 
 You can extend the theme by creating following files in your site folder:
 
